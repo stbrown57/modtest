@@ -8,18 +8,10 @@ categories = ["Cycling"]
 
 # Update Equipment
 
-<!--
-![2010 Tarmac](Tarmac.png "My Tarmac") 
--->
+<!-- ![2010 Tarmac](Tarmac.png "My Tarmac") -->
 
-{{< resize.inline >}}
-{{ $image := resources.Get "Tarmac.png" }}
-{{ $image := .Page.Resources.GetMatch "Tarmac.png"}}
-{{ $image := $image.Resize "500x webp" }}
-{{ with $image }}
-  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}
-{{< /resize.inline >}}
+
+{{< figure src="Tarmac.png" title="2010 Tarmac Comp" link="https://www.specialized.com/us/en" caption="Mine was a SRAM Rival version replaced with 2017 Shimano 105 Group set" width="500px">}}
 
 My newest bike is the 2010 Specialize Tarmac Comp. It experianced some frame damage about four or five years ago on a vacation in New England. The bike works, but the finish and coating was damaged which maybe leading to questionable integrty of the frame.  The drive componants, headset and wheels were replace in 2017 with Shimano 150 7000 componants. It is still riding, but the headset / front end, is lose and may not be repairable.  I've had good times with the bike, but the frame is probably ready for the landfill.
 
